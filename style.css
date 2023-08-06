@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#container{
+    width: 30vw;
+    height:40vh;
+    margin-left:40vw;
+    display: grid;
+    grid-template-rows: 20vh 80vh;
+    padding: 2vw;
+    background-color: black;
+
+}
+.button-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2vh;
+    margin: 2vw;
+    background-color: black;
+}
+.zero{
+    grid-column: 1/3;
+}
+input{
+    text-align: right;
+    
+}
