@@ -8,7 +8,7 @@ function audio(){
 }
 for(let btn of btns){
     btn.style.backgroundColor='white';
-    btn.addEventListener('click',function(e){
+    btn.addEventListener('click',function(e){    
         audio();
         let btntxt=e.target.innerText;
         if(btntxt==='C'){
@@ -26,5 +26,6 @@ for(let btn of btns){
         else{
             inp.value+=e.target.innerText;
         }
+
     })
 }
